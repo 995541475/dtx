@@ -1,0 +1,16 @@
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: producer_bank1
+server:
+  port: 56081
+spring:
+  application:
+    name: dtx-txmsg-demo-bank1
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/bank1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+
+
